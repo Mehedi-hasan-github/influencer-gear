@@ -16,6 +16,7 @@ main{
 
 /* Section-navbar */
 .navbar{
+    height: 70px;
     font-display: flex;
     justify-content: center;
     align-items: center;
@@ -24,9 +25,10 @@ nav{
     float: right;
 }
 .icon{
+    line-height: 45px;
     float: left;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 25px;
 }
 nav ul{
     list-style: none;
@@ -51,3 +53,23 @@ nav ul li a:hover{
 }
 /* section-navbar */
 /* section-galary */
+
+.galary{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-galary{
+    float: left;
+    width: 50%;
+}
+.image-galary{
+    width: 50%;
+    float: right;    
+}
+.image-galary img{
+    width: 80%;
+}
+.htag-one{
+    font-size: 35px;
+}
