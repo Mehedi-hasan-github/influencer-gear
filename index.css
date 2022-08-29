@@ -150,3 +150,12 @@ hr{
 .feature-one{
     margin-right: 30px;
 }
+/* footer */
+footer{
+    text-align: center;
+    height: 100px;
+    margin-top: 70px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
