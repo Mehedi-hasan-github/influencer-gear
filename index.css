@@ -140,3 +140,13 @@ hr{
 .text-collection p{
     font-size: 14px;
 }
+/* feature */
+.feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+.feature-one{
+    margin-right: 30px;
+}
