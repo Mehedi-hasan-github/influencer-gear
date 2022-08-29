@@ -7,6 +7,25 @@ body{
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
 }
+/* common-style */
+  .uni-button{
+    border: none;
+    padding: 5px 20px;
+    background-color: #E02C6D;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  .htag-two{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  .htag-one{
+    font-size: 35px;
+  }
+/* common-style */
 
 main{
     width: 90%;
@@ -58,6 +77,7 @@ nav ul li a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 70px;
 }
 .text-galary{
     float: left;
@@ -72,4 +92,51 @@ nav ul li a:hover{
 }
 .htag-one{
     font-size: 35px;
+}
+/* Logos */
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;     
+}
+.logo{
+    margin: 0 15px;
+}
+hr{    
+    border-collapse: 2px;  
+    width: 80%;
+}
+/* populer-collection */
+.populer-collection{
+    margin: 30px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 25px;
+}
+.collection{
+    width: 320px;
+    height: 450px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+
+.image-collection img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 300px;
+}
+.text-collection{
+    margin: 0 10px 10px;
+    
+}
+.text-collection div{
+    margin-bottom: 0px;
+}
+.fa-star,.fa-star-half{
+    color: gold;
+    font-size: 12px;
+}
+.text-collection p{
+    font-size: 14px;
 }
