@@ -11,13 +11,21 @@
     <script src="https://kit.fontawesome.com/9d84e34e1f.js" crossorigin="anonymous"></script>
     <!-- font -->
     <!-- @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=Lobster&family=Noto+Sans:ital@0;1&display=swap'); -->
+    <style>
+        .uniButton{
+            margin:20px 0 0 45%;
+            display: fixed;
+        }
+    </style>
 </head>
 <body>
-    <main>
+    <main class="main-content">
         <!-- navbar -->
         <section class="navbar">
-            <label for="icon" class="icon">Influencer-Gear</label>
             <nav>
+            <label for="icon" class="icon">Influencer-Gear</label>
+            <input type="checkbox" id="check">
+            <label for="check" id="checkbtn"><i class="fa-solid fa-bars"></i></label>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Products</a></li>
@@ -26,9 +34,8 @@
                     <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
                     <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>                    
                 </ul>
+                
             </nav>
-            <input type="checkbox" id="check">
-            <label for="check" id="checkbtn"><i class="fa-solid fa-bars"></i></label>
         </section>
         <!-- navbar-close -->
         <!-- galary-starts -->
@@ -48,7 +55,6 @@
         <!-- galary-ends -->
         <!-- logoes <section></section> -->
         <section>
-            <hr>
             <div class="logos">
                 <div class="logo"><img src="logos/Alibaba.svg" alt=""></div>
                 <div class="logo"><img src="logos/Amazon.svg" alt=""></div>
@@ -58,7 +64,7 @@
                 <div class="logo"><img src="logos/Walmart.svg" alt=""></div>
                 <div class="logo"><img src="logos/Target.svg" alt=""></div>
             </div>
-            <hr>
+           
         </section>
         <section>
             <h2 class="htag-two">Populer Collection</h2>
@@ -227,11 +233,11 @@
                 </div>
             </div>
         </section> 
-        <button style="margin:20px 0 0 80%;" class="uni-button">Preebook Now-</button>
+        <button  class="uni-button uniButton">Preebook Now-</button>
         <section>
              <div class="feature">
                 <div class="feature-one">
-                    <img src="images/gear.png" alt="">
+                    <img  src="images/gear.png" alt="">
                 </div>
                 <div>
                     <h1 class="htag-one">Featured Products at One Price</h1>
